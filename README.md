@@ -29,10 +29,10 @@
 3. 在项目根目录下运行Go服务：
 
    ```sh
-   go run main/main.go
+   go run main.go
    ```
 
-4. 打开浏览器并访问`http://localhost:8080`来查看项目首页。
+4. 打开浏览器并访问`http://localhost:8000`来查看项目首页。
 
 ## 使用说明
 
