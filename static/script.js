@@ -58,9 +58,9 @@ function displayResults(results, startTime) {
         return; // 如果results不是数组，则直接返回
     }
 
-    responseTimeDiv.textContent = `本次响应用时：${responseTime.toFixed(2)}毫秒`;
+    responseTimeDiv.textContent = `本次响应用时：${responseTime.toFixed(2)}ms`;
     resultDiv.innerHTML = results.map((result, index) => {
         const colorStyle = index === 0 ? 'color:red;' : '';
-        return `<span style="${colorStyle}">识别结果：${result.name}（置信度：${result.score}%）</span><br>`;
+        return `<span style="${colorStyle}">识别结果：${result.name}（置信度：${result.score}）</span><br>`;
     }).join('');
 }
