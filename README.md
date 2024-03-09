@@ -65,4 +65,4 @@
 如有任何问题或建议，请通过以下方式联系我们：
 
 - 邮箱：recycle@snake-konginchrist.com
-- 项目主页：https://gitee.com/Snake-Konginchrist/ElectronicsRecycle
+- 项目主页：https://recyce.snake-konginchrist.com
